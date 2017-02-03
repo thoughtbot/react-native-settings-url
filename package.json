@@ -1,0 +1,11 @@
+{
+  "name": "react-native-settings-url",
+  "version": "0.1.0",
+  "description": "Expose the iOS Settings url to React Native",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Giles Van Gruisen <giles@thoughtbot.com>",
+  "license": "MIT"
+}

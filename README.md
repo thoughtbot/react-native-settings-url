@@ -26,17 +26,17 @@ import { Linking } from 'react-native';
 import SettingsURL from 'react-native-settings-url';
 
 SettingsURL.getURL()
-  .then((url) => {
+  .then(url => {
     return Promise.all([
       url,
-      Linking.canOpenURL(url)
+      Linking.canOpenURL(url),
     ]);
-  ))
+  })
   .then(([url, supported]) => {
     if (supported) {
       Linking.openURL(url);
     }
-  })
+  });
 ```
 
 ## Questions or feedback
